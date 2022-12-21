@@ -171,7 +171,6 @@ int main(){
 
     char basla;
     char yanit;
-    int puan;
     
     printf("Hangi super kahramansiniz testimize hos geldiniz.\n");
     printf("Testimize baslamak icin sirasiyla R'yi, istediginiz zaman cikmak icin Q'yu giriniz:");
