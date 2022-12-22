@@ -173,14 +173,14 @@ int main(){
     char yanit;
     
     printf("Hangi super kahramansiniz testimize hos geldiniz.\n");
-    printf("Testimize baslamak icin sirasiyla R'yi, istediginiz zaman cikmak icin Q'yu giriniz:");
+    printf("Testimize baslamak icin R'yi, istediginiz zaman cikmak icin Q'yu giriniz:");
     
-    basla = getchar();
+    scanf(" %c", &basla);
 
-    while((basla != 'R') && (basla != 'r') && (basla != 'Q') && (basla != 'q') && (basla == 10)){
+    while((basla != 'R') && (basla != 'r') && (basla != 'Q') && (basla != 'q')){
 
         printf("Lutfen R ya da Q'yu giriniz:");
-        basla = getchar();
+        scanf(" %c", &basla);
         
     }
 
